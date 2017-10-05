@@ -38,3 +38,7 @@
 `$dtNull = new vDateTime(null);`
 
 `echo $dtNull->getDateTimeSql(); // NULL`
+
+`$dtNull = new vDateTime('2017-08-06 05:06:52');`
+
+`echo $dtNull->getDateTimeSql(); // '"2017-08-06 05:06:52"'`
